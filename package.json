@@ -1,0 +1,21 @@
+{
+  "name": "ibm-qwik-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
